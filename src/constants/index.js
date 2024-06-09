@@ -1,6 +1,6 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
+import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-2.png";
+import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React.js, as well as back-end technologies like PHP, Node.js, MySQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
@@ -33,37 +33,37 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Portfolio",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Developed a portfolio website with React, Tailwind, & Framer Motion, showcasing projects & work experience. Implemented UI components using Framer Motion, enhancing engagement with dynamic animations & RWD. Showcased work history and key projects with detailed sections for roles, technologies, and project highlights. Deployed with Git, GitHub, & Vercel, ensuring continuous updates & maintaining clean, maintainable codebase",
+    technologies: ["HTML", "Tailwind", "React"],
   },
   {
-    title: "Task Management App",
+    title: "Web Learning Hub",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Inclusive Platform for Diverse Programming Language Exploration & Skill Development. Spearheaded an independent project, a versatile website housing open-source database for array of languages. Designed a user-friendly interface that enhances the language learning experience with seamless exploration. Incorporated interactive code editor for hands-on learning within the website, fostering deeper comprehension",
+    technologies: ["HTML", "CSS", "JavaScript"],
   },
   {
-    title: "Portfolio Website",
+    title: "Expense Tracker",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Developed a Python app to track and categorize monthly expenses, enhancing budgeting capabilities for users. Implemented expense entry, saving data to a CSV file, allowing easy export to Excel and Google Drive. Summarized monthly expenses and remaining budget, providing users with clear financial overviews. Designed app to integrate with other workflows, using universally accepted CSV format for data output",
+    technologies: ["Python"],
   },
   {
-    title: "Blogging Platform",
+    title: "Personal Finance",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Created an interactive PowerBI dashboard to track and manage income, expenses, and net worth. Analyzed financial data: Integrated and visualized monthly expenses, revealing spending patterns. Designed advanced visualizations to showcase spending trends, savings targets, and net worth growth",
+    technologies: ["SQL, PowerBI"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Tanpure Lane, Rahuri, Maharashtra, India 413705 ",
+  phoneNo: "+91-9307656960 ",
+  email: "krushnasinnarkar@gmail.com",
 };
