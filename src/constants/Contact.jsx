@@ -10,7 +10,7 @@ const Contact = () => {
                 transition={{ duration: 1 }}
                 className="my-10 text-center text-4xl"
             >
-                Get in Touchx
+                Get in Touch
             </motion.h1>
             <div className="text-center tracking-tighter">
                 <motion.p
