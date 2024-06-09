@@ -10,7 +10,8 @@ const Contact = () => {
                 transition={{ duration: 1 }}
                 className="my-10 text-center text-4xl"
             >
-                Get in Touchx            </motion.h1>
+                Get in Touchx
+            </motion.h1>
             <div className="text-center tracking-tighter">
                 <motion.p
                     whileInView={{ opacity: 1, x: 0 }}
@@ -32,7 +33,7 @@ const Contact = () => {
                     whileInView={{ opacity: 1, x: 0 }}
                     initial={{ opacity: 0, x: -100 }}
                     transition={{ duration: 1 }}
-                    href="#"
+                    href="mailto:krushnasinnarkar@gmail.com"
                     className="border-b"
                 >
                     {CONTACT.email}
