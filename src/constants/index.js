@@ -1,3 +1,4 @@
+import project0 from "../assets/projects/project-0.png";
 import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
@@ -32,6 +33,13 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Note App",
+    image: project0,
+    description:
+      "Frontend Setup & UI Creation: Configured the React frontend, integrated Tailwind CSS, and developed various UI components including login, signup pages, navbar, search bar, and note card with add/edit functionalities. Backend Development: Set up Node.js and Express backend, connected to MongoDB Atlas, and implemented various APIs for user authentication, CRUD operations on notes, and pinning notes. API Integration: Utilized axios to connect frontend with backend APIs for user login, account creation, fetching, adding, editing, deleting, and pinning notes. Additional Features: Included toast messages for user feedback, and implemented a search functionality to filter notes effectively.",
+    technologies: ["React.js", "Tailwind.css", "Node.js", "Express.js", "Mongodb" ],
+  },
   {
     title: "Portfolio",
     image: project1,
