@@ -3,7 +3,7 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.png";
-import project5 from "../assets/projects/project-5.jpg";
+import project5 from "../assets/projects/project-5.png";
 
 export const HERO_CONTENT = `Hello! I am Krushna Sharad Sinnarkar, an aspiring full-stack developer with a B.Tech in Electrical Engineering from IIT Madras. My passion for building innovative web applications has led me to gain extensive experience in using modern frameworks such as React.js, Node.js, and the MERN stack. I specialize in creating dynamic, responsive, and user-friendly interfaces, and I am adept at both front-end and back-end development. My portfolio showcases a variety of projects that demonstrate my ability to design and implement robust applications. Explore my work and feel free to connect with me for collaboration opportunities or to learn more about my journey.`;
 
