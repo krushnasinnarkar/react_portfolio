@@ -3,32 +3,33 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React.js, as well as back-end technologies like PHP, Node.js, MySQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `Hello! I am Krushna Sharad Sinnarkar, an aspiring full-stack developer with a B.Tech in Electrical Engineering from IIT Madras. My passion for building innovative web applications has led me to gain extensive experience in using modern frameworks such as React.js, Node.js, and the MERN stack. I specialize in creating dynamic, responsive, and user-friendly interfaces, and I am adept at both front-end and back-end development. My portfolio showcases a variety of projects that demonstrate my ability to design and implement robust applications. Explore my work and feel free to connect with me for collaboration opportunities or to learn more about my journey.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. I have worked with a variety of technologies, including React.js, PHP, Node.js, MySQ, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies.`;
+export const ABOUT_TEXT = `Hello! My name is Krushna Sharad Sinnarkar, and I am a passionate full-stack developer with a B.Tech in Electrical Engineering from IIT Madras. My journey into technology began with a fascination for creating impactful solutions, leading me to gain proficiency in modern frameworks like React.js, Node.js, and the MERN stack. I specialize in crafting dynamic, responsive web applications and have hands-on experience with HTML, CSS, JavaScript, MongoDB, and SQL. Additionally, my internships and projects have equipped me with strong data analysis skills using tools like PowerBI and Tableau. I've worked on a variety of projects, including a Notes App, personal finance tracker, and weather forecasting system, each refining my technical and project management skills. Beyond technical expertise, my leadership roles in various organizations have strengthened my teamwork and strategic planning abilities. I am eager to continuously learn and take on challenging projects that push my boundaries, aiming to contribute to innovative solutions that make a positive impact. Thank you for visiting my portfolio, and I invite you to explore my work and connect with me for collaboration opportunities.`;
 
 export const EXPERIENCES = [
   {
     year: "Jul 23 - Aug 23",
     role: "Data Analyst",
     company: "MTE Pvt. Ltd.",
-    description: `Efficiently streamlined and optimized data workflows, enhancing overall data management processes. Displayed adeptness in data handling, utilizing advanced methods to extract, cleanse, and manipulate datasets. Utilized effective data extraction techniques to accurately identify trends, key patterns, and anomalies. Gained proficiency in data analytics tools, such as SQL, BI, MIRO, EXCEL, and relevant software applications `,
-    technologies: ["SQL", "BI", "Excel", "Miro"],
+    description: `At MedTourEasy, I streamlined and optimized data workflows, significantly improving data management processes. I employed advanced data handling methods to extract, cleanse, and manipulate datasets, and utilized tools such as SQL, PowerBI, MIRO, and Excel to identify key trends, patterns, and anomalies.`,
+    technologies: ["SQL", "PowerBI", "Excel", "Miro", "Data Cleansing", "Data Visualization"],
   },
   {
     year: "Dec 22 - Jan 23",
     role: "Data Analyst",
     company: "Gullak Money",
-    description: `Growth Vertical: Achieved optimized retention funnel via data-driven insights, user research & SQL-Analysis. Optimized retention funnel, providing a strategic framework for 5 Lakh+, increasing retention by over 15%. Researched 25K user journeys to enhance user experience & engagement, led to a 10% churn rate reduction. Utilized primary research & SQL analysis of customer experiences to propose alternate revenue streams`,
-    technologies: ["SQL", "Excel", "User Research"],
+    description: `As a Data Analyst Intern at Gullak Money, I optimized the retention funnel for over 500,000 users, leading to a 15% increase in retention rates. By analyzing 25,000 user journeys, I enhanced user experience and reduced the churn rate by 10%. I conducted primary research and SQL analysis to propose new revenue streams, demonstrating my ability to drive data-driven decisions.`,
+    technologies: ["SQL", "Excel", "Data Analysis", "User Research", "Retention Optimization"],
   },
   {
     year: "Apr 22 - Jun 22",
     role: "Frontend Developer",
     company: "Spreadit Infotech",
-    description: `Forging a New Path: Crafting a Revolutionary Webpage for Unprecedented User Engagement Enhancement. Devised innovative webpage funneling user data into specialized social groups, enabling personalized updates. Collaborated with the team on a comprehensive UX & UI refinement, driving a 25% upswing in user engagement. Utilized HTML, CSS, JS for webpage creation and SQL for data handling, ensuring a seamless user experience`,
-    technologies: ["HTML", "CSS", "Javascript", "SQL"],
+    description: `During my internship at Spreadit Infotech, I developed an innovative webpage that funneled user data into specialized social groups, enabling personalized updates. I collaborated with the team on UX/UI improvements, which resulted in a 15% increase in user engagement. My work involved using HTML, CSS, JavaScript, and SQL to ensure a seamless user experience.`,
+    technologies: ["HTML", "CSS", "Javascript", "SQL", "UX/UI Design"],
   },
 ];
 
@@ -37,36 +38,43 @@ export const PROJECTS = [
     title: "Note App",
     image: project0,
     description:
-      "Frontend Setup & UI Creation: Configured the React frontend, integrated Tailwind CSS, and developed various UI components including login, signup pages, navbar, search bar, and note card with add/edit functionalities. Backend Development: Set up Node.js and Express backend, connected to MongoDB Atlas, and implemented various APIs for user authentication, CRUD operations on notes, and pinning notes. API Integration: Utilized axios to connect frontend with backend APIs for user login, account creation, fetching, adding, editing, deleting, and pinning notes. Additional Features: Included toast messages for user feedback, and implemented a search functionality to filter notes effectively.",
-    technologies: ["React.js", "Tailwind.css", "Node.js", "Express.js", "Mongodb" ],
+      "I developed a full-featured Notes App using the MERN stack, incorporating authentication, CRUD operations, search, and pinning functionalities. The app features REST APIs for secure user authentication and note management, a responsive frontend designed with React JS and Tailwind CSS, and MongoDB Atlas for data storage, ensuring robust and secure data handling.",
+    technologies: ["MERN Stack (MongoDB, Express.js, React.js, Node.js)", "JWT Authentication", "REST APIs", "Tailwind CSS" ],
   },
   {
     title: "Portfolio",
     image: project1,
     description:
-      "Developed a portfolio website with React, Tailwind, & Framer Motion, showcasing projects & work experience. Implemented UI components using Framer Motion, enhancing engagement with dynamic animations & RWD. Showcased work history and key projects with detailed sections for roles, technologies, and project highlights. Deployed with Git, GitHub, & Vercel, ensuring continuous updates & maintaining clean, maintainable codebase",
-    technologies: ["HTML", "Tailwind", "React"],
+      "I created a personal portfolio website using React and Tailwind CSS, showcasing my projects and work experience. The site includes dynamic animations implemented with Framer Motion, enhancing user engagement. I deployed the website using Git, GitHub, and Vercel, ensuring continuous updates and a clean codebase",
+    technologies: ["React", "Tailwind CSS", "Framer Motion", "Git", "GitHub", "Vercel"],
   },
   {
     title: "Web Learning Hub",
     image: project2,
     description:
-      "Inclusive Platform for Diverse Programming Language Exploration & Skill Development. Spearheaded an independent project, a versatile website housing open-source database for array of languages. Designed a user-friendly interface that enhances the language learning experience with seamless exploration. Incorporated interactive code editor for hands-on learning within the website, fostering deeper comprehension",
-    technologies: ["HTML", "CSS", "JavaScript"],
+      "This independent project involved developing a versatile website for exploring and learning various programming languages. The site features an interactive code editor, enabling users to practice coding in real-time. The project demonstrates my commitment to fostering education and my ability to create user-friendly web applications.",
+    technologies: ["HTML", "CSS", "JavaScript", "Interactive Code Editor"],
   },
   {
     title: "Expense Tracker",
     image: project3,
     description:
-      "Developed a Python app to track and categorize monthly expenses, enhancing budgeting capabilities for users. Implemented expense entry, saving data to a CSV file, allowing easy export to Excel and Google Drive. Summarized monthly expenses and remaining budget, providing users with clear financial overviews. Designed app to integrate with other workflows, using universally accepted CSV format for data output",
-    technologies: ["Python"],
+      "I designed a comprehensive personal finance tracker to assist users in budgeting and financial management. The application uses Python for expense tracking and data saving, and PowerBI to create an interactive dashboard that visualizes income and expenses, providing detailed insights into spending patterns.",
+    technologies: ["Python", "CSV Handling", "PowerBI", "Data Visualization"],
   },
   {
-    title: "Personal Finance",
+    title: "Weather Forecasting System",
     image: project4,
     description:
-      "Created an interactive PowerBI dashboard to track and manage income, expenses, and net worth. Analyzed financial data: Integrated and visualized monthly expenses, revealing spending patterns. Designed advanced visualizations to showcase spending trends, savings targets, and net worth growth",
-    technologies: ["SQL, PowerBI"],
+      "In this project, I built a graphical user interface (GUI) system for weather forecasting using Python and Tkinter. The application integrates the Open Weather API for real-time updates and employs Geopy for precise location-based forecasts, showcasing my skills in API integration and GUI development.",
+    technologies: ["Python", "Tkinter", "Open Weather API", "Geopy", "GUI Development"],
+  },
+  {
+    title: "Business Analytics",
+    image: project5,
+    description:
+      "In this project, I built a graphical user interface (GUI) system for weather forecasting using Python and Tkinter. The application integrates the Open Weather API for real-time updates and employs Geopy for precise location-based forecasts, showcasing my skills in API integration and GUI development.",
+    technologies: ["Python", "Tkinter", "Open Weather API", "Geopy", "GUI Development"],
   },
 ];
 
