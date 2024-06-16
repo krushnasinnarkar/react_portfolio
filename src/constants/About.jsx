@@ -20,7 +20,7 @@ const About = () => {
                     transition={{ duration: 0.5 }}
                     className="w-full"
                 >
-                    <div className="text-center px-20 py-20">
+                    <div className="text-center">
                         <p className="my-2 py-6">{ABOUT_TEXT}</p>
                     </div>
                 </motion.div>
